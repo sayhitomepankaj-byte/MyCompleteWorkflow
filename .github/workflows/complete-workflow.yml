@@ -44,6 +44,6 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
-          target: 'https://www.youtube.com/'
+          target: 'https://www.msn.com/'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
